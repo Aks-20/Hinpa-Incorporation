@@ -2,7 +2,7 @@ import { Building2, Users2, Server } from "lucide-react";
 
 export default function CaseStudies() {
   return (
-    <section className="bg-gray-100 py-20 px-6 lg:px-12">
+    <section className="bg-gradient-to-b from-gray-50 to-gray-100 py-20 px-6 lg:px-12">
       <div className="max-w-6xl mx-auto text-center">
         
         {/* Heading */}
@@ -18,36 +18,42 @@ export default function CaseStudies() {
         <div className="mt-14 grid md:grid-cols-3 gap-8">
           
           {/* Case Study 1 */}
-          <div className="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition text-left">
-            <Building2 className="w-10 h-10 text-indigo-600" />
-            <h3 className="mt-4 text-lg font-semibold text-gray-900">
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
+            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
+              <Building2 className="w-7 h-7 text-indigo-600" />
+            </div>
+            <h3 className="mt-6 text-xl font-semibold text-gray-900">
               Leadership Hiring for Growth
             </h3>
-            <p className="mt-2 text-gray-600 text-sm">
+            <p className="mt-3 text-gray-600 text-sm leading-relaxed">
               Helped <b>XYZ Company</b> scale into new markets by placing 
               senior leadership talent across APAC and Europe.
             </p>
           </div>
 
           {/* Case Study 2 */}
-          <div className="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition text-left">
-            <Users2 className="w-10 h-10 text-indigo-600" />
-            <h3 className="mt-4 text-lg font-semibold text-gray-900">
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
+            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
+              <Users2 className="w-7 h-7 text-indigo-600" />
+            </div>
+            <h3 className="mt-6 text-xl font-semibold text-gray-900">
               SaaS-Enabled Payroll
             </h3>
-            <p className="mt-2 text-gray-600 text-sm">
+            <p className="mt-3 text-gray-600 text-sm leading-relaxed">
               Delivered a <b>SaaS-based payroll system</b> that now manages 
               salaries, compliance, and reporting for <b>1000+ employees</b>.
             </p>
           </div>
 
           {/* Case Study 3 */}
-          <div className="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition text-left">
-            <Server className="w-10 h-10 text-indigo-600" />
-            <h3 className="mt-4 text-lg font-semibold text-gray-900">
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
+            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
+              <Server className="w-7 h-7 text-indigo-600" />
+            </div>
+            <h3 className="mt-6 text-xl font-semibold text-gray-900">
               Digital Transformation
             </h3>
-            <p className="mt-2 text-gray-600 text-sm">
+            <p className="mt-3 text-gray-600 text-sm leading-relaxed">
               Partnered with a mid-sized enterprise to build custom 
               <b> automation & software solutions</b>, boosting efficiency by 40%.
             </p>

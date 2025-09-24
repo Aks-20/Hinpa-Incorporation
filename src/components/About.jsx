@@ -68,7 +68,8 @@ const AboutSection = () => {
           {/* Right Content - Visual */}
           <div className="relative">
             <div className="relative">
-              <div className="bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl p-8 text-white">
+              {/* Updated Gradient */}
+              <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold">Our Mission</h3>
                   <p className="text-green-100 leading-relaxed">
