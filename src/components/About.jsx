@@ -55,7 +55,7 @@ const AboutSection = () => {
 
           {/* Mission Column */}
           <div className="relative self-start mt-25">
-            <div className="bg-gradient-to-br from-green-600 to-green-500 rounded-2xl p-10 text-white shadow-2xl">
+            <div className="bg-[#3CA26E] from-green-600 to-green-500 rounded-2xl p-10 text-white shadow-2xl">
               <div className="space-y-6">
                 <h3 className="text-3xl font-bold">Our Mission</h3>
                 <p className="text-green-100 leading-relaxed">
