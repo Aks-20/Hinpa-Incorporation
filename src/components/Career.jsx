@@ -98,7 +98,7 @@ const CareersSection = () => {
                   key={index}
                   className="flex items-start space-x-4 p-4 rounded-lg hover:bg-white hover:shadow-md transition-all duration-300"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center text-white">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#3CA26E] from-green-500 to-emerald-600 rounded-lg flex items-center justify-center text-white">
                     {benefit.icon}
                   </div>
                   <div className="flex-1">
@@ -138,7 +138,7 @@ const CareersSection = () => {
           <div className="space-y-6">
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <div className="flex items-center space-x-3 mb-6">
-                <Briefcase className="w-8 h-8 text-green-600" />
+                <Briefcase className="w-8 h-8 text-[#3CA26E]" />
                 <h3 className="text-2xl font-bold text-gray-900">Open Positions</h3>
               </div>
 
@@ -170,7 +170,7 @@ const CareersSection = () => {
               </div>
 
               <div className="mt-6 pt-6 border-t border-gray-200">
-                <button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center group">
+                <button className="w-full bg-[#3CA26E] from-green-600 to-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center group">
                   View All Openings
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
@@ -178,7 +178,7 @@ const CareersSection = () => {
             </div>
 
             {/* Employee Spotlight */}
-            <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
+            <div className="bg-[#3CA26E] from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
               <h4 className="text-xl font-bold mb-4">Employee Spotlight</h4>
               <blockquote className="text-green-100 italic mb-4">
                 "Working at HINPA has been an incredible journey. The diversity of projects and
@@ -208,7 +208,7 @@ const CareersSection = () => {
               let's explore how you can contribute to our mission.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
+              <button className="bg-[#3CA26E] text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
                 Send Your Resume
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>

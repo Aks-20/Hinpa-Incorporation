@@ -107,7 +107,7 @@ const ServicesSection = () => {
               Let's discuss how our integrated approach to talent and technology can accelerate your growth
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
+              <button className="bg-[#3CA26E] text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
                 Schedule Consultation
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>

@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
               className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition"
             >
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 flex items-center justify-center bg-gradient-to-r from-green-500 to-blue-600 text-white rounded-xl shadow-lg">
+                <div className="w-14 h-14 flex items-center justify-center bg-[#3CA26E] from-green-500 to-blue-600 text-white rounded-xl shadow-lg">
                   {item.icon}
                 </div>
                 <div className="flex-1 space-y-3">
@@ -138,7 +138,7 @@ const WhyChooseUs = () => {
                     </span>
                   </div>
                 ))}
-                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg text-white shadow-lg">
+                <div className="flex items-center justify-between p-4 bg-[#3CA26E] from-green-500 to-blue-600 rounded-lg text-white shadow-lg">
                   <span className="font-bold">HINPA Incorporation</span>
                   <span className="bg-white/20 text-sm px-3 py-1 rounded-full">
                     Complete Solution ✓
@@ -149,7 +149,7 @@ const WhyChooseUs = () => {
 
             {/* Growth impact card */}
             <div className="relative">
-              <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition duration-500">
+              <div className="bg-white ml-10 rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition duration-500">
                 <div className="space-y-6">
                   <div className="flex items-center gap-3">
                     <TrendingUp className="w-7 h-7 text-green-600" />
@@ -217,7 +217,7 @@ const WhyChooseUs = () => {
               approach boosted our efficiency and saved us months of effort.”
             </blockquote>
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-600 rounded-full"></div>
+              <div className="w-12 h-12 bg-[#3CA26E] rounded-full"></div>
               <div className="text-left">
                 <div className="font-semibold text-gray-900">Sarah Johnson</div>
                 <div className="text-sm text-gray-600">

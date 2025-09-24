@@ -7,7 +7,7 @@ export default function CaseStudies() {
         
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Client <span className="text-indigo-600">Success Stories</span>
+          Client <span className="text-[#3CA26E]">Success Stories</span>
         </h2>
         <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
           Real-world impact we’ve created for businesses across industries — 
@@ -18,9 +18,9 @@ export default function CaseStudies() {
         <div className="mt-14 grid md:grid-cols-3 gap-8">
           
           {/* Case Study 1 */}
-          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
-            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
-              <Building2 className="w-7 h-7 text-indigo-600" />
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-[#3CA26E]">
+            <div className="w-12 h-12 rounded-xl bg-[#3CA26E] flex items-center justify-center">
+              <Building2 className="w-7 h-7 text-white" />
             </div>
             <h3 className="mt-6 text-xl font-semibold text-gray-900">
               Leadership Hiring for Growth
@@ -32,9 +32,9 @@ export default function CaseStudies() {
           </div>
 
           {/* Case Study 2 */}
-          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
-            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
-              <Users2 className="w-7 h-7 text-indigo-600" />
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-[#3CA26E]">
+            <div className="w-12 h-12 rounded-xl bg-[#3CA26E] flex items-center justify-center">
+              <Users2 className="w-7 h-7 text-white" />
             </div>
             <h3 className="mt-6 text-xl font-semibold text-gray-900">
               SaaS-Enabled Payroll
@@ -46,9 +46,9 @@ export default function CaseStudies() {
           </div>
 
           {/* Case Study 3 */}
-          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-indigo-200">
-            <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
-              <Server className="w-7 h-7 text-indigo-600" />
+          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2 text-left border border-gray-100 hover:border-[#3CA26E]">
+            <div className="w-12 h-12 rounded-xl bg-[#3CA26E] flex items-center justify-center">
+              <Server className="w-7 h-7 text-white" />
             </div>
             <h3 className="mt-6 text-xl font-semibold text-gray-900">
               Digital Transformation

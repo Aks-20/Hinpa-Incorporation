@@ -151,7 +151,7 @@ const ContactSection = () => {
 
               <button
                 type="submit"
-                className="w-full bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center"
+                className="w-full bg-[#3CA26E] hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center"
               >
                 Send Message
                 <Send className="ml-2 w-4 h-4" />
@@ -173,7 +173,7 @@ const ContactSection = () => {
                   className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className={`flex-shrink-0 w-12 h-12 ${info.color} rounded-lg flex items-center justify-center`}>
+                    <div className={`flex-shrink-0 w-12 h-12 bg-[#3CA26E] text-white rounded-lg flex items-center justify-center`}>
                       {info.icon}
                     </div>
                     <div className="flex-1">
