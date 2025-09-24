@@ -1,29 +1,35 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/WhatsApp Image 2025-09-23 at 4.51.00 PM.jpeg'; // adjust path to your logo file
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-blue-600 rounded-full"></div>
-                <span className="text-xl font-bold text-gray-800">HINPA</span>
+                {/* replaced gradient div with logo image */}
+                <img
+                  src={logo}
+                  alt="HINPA Logo"
+                  className="w-40 h-20 object-contain"
+                />
+                {/* <span className="text-xl font-bold text-gray-800">HINPA</span> */}
               </div>
             </div>
           </div>
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#home" className="text-gray-800 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
-              <a href="#about" className="text-gray-600 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors">About Us</a>
-              <a href="#services" className="text-gray-600 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors">Services</a>
-              <a href="#careers" className="text-gray-600 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors">Careers</a>
-              <a href="#contact" className="text-gray-600 hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+              <a href="#home" className="text-gray-800 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors">Home</a>
+              <a href="#about" className="text-gray-600 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors">About Us</a>
+              <a href="#services" className="text-gray-600 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors">Services</a>
+              <a href="#careers" className="text-gray-600 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors">Careers</a>
+              <a href="#contact" className="text-gray-600 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors">Contact</a>
             </div>
           </div>
 
