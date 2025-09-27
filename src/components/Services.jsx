@@ -6,28 +6,43 @@ const ServicesSection = () => {
     {
       icon: <Search className="w-8 h-8" />,
       title: 'Executive / Boutique Search',
-      description: 'Leadership hiring, niche searches, international talent mapping for C-suite and specialized roles across industries.',
-      features: ['Leadership & CXO hiring', 'International executive search', 'Specialized roles across industries'],
-      color: 'from-blue-500 to-purple-600'
+      description:
+        'Leadership hiring, niche searches, international talent mapping for C-suite and specialized roles across industries.',
+      features: [
+        'Leadership & CXO hiring',
+        'International executive search',
+        'Specialized roles across industries',
+      ],
+      color: 'from-orange-300 to-orange-400',
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: 'Payroll & Workforce Solutions',
-      description: 'Third-party deputation, SaaS-based HR/payroll, workforce augmentation for scalable business growth.',
-      features: ['Off-roll staffing & deputation', 'SaaS-based payroll management', 'Augmented staff hiring'],
-      color: 'from-green-500 to-teal-600'
+      description:
+        'Third-party deputation, SaaS-based HR/payroll, workforce augmentation for scalable business growth.',
+      features: [
+        'Off-roll staffing & deputation',
+        'SaaS-based payroll management',
+        'Augmented staff hiring',
+      ],
+      color: 'from-orange-400 to-orange-500',
     },
     {
       icon: <Code className="w-8 h-8" />,
       title: 'IT Services & Custom Solutions',
-      description: 'End-to-end software development, digital transformation, and automation solutions for modern enterprises.',
-      features: ['End-to-end software development', 'Enterprise IT integration', 'Scalable cloud and automation solutions'],
-      color: 'from-orange-500 to-red-600'
-    }
+      description:
+        'End-to-end software development, digital transformation, and automation solutions for modern enterprises.',
+      features: [
+        'End-to-end software development',
+        'Enterprise IT integration',
+        'Scalable cloud and automation solutions',
+      ],
+      color: 'from-orange-300 to-orange-500',
+    },
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-orange-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -59,7 +74,7 @@ const ServicesSection = () => {
                   </div>
                   <ArrowRight className="w-5 h-5 opacity-70 group-hover:translate-x-1 transition-transform" />
                 </div>
-                
+
                 {/* Decorative elements */}
                 <div className="absolute top-4 right-4 w-20 h-20 bg-white bg-opacity-10 rounded-full -mr-8 -mt-8"></div>
                 <div className="absolute bottom-2 right-2 w-8 h-8 bg-white bg-opacity-20 rounded-full"></div>
@@ -70,7 +85,7 @@ const ServicesSection = () => {
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-gray-700 transition-colors">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
@@ -78,7 +93,10 @@ const ServicesSection = () => {
                 {/* Features List */}
                 <div className="space-y-2 pt-2">
                   {service.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center text-sm text-gray-600">
+                    <div
+                      key={featureIndex}
+                      className="flex items-center text-sm text-gray-600"
+                    >
                       <div className="w-1.5 h-1.5 bg-orange-400 rounded-full mr-3 flex-shrink-0"></div>
                       {feature}
                     </div>
@@ -107,11 +125,11 @@ const ServicesSection = () => {
               Let's discuss how our integrated approach to talent and technology can accelerate your growth
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-[#E0904E] text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-400 transition-colors flex items-center justify-center">
+              <button className="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-400 transition-colors flex items-center justify-center">
                 Schedule Consultation
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-orange-600 hover:text-orange-500 transition-colors">
+              <button className="border-2 border-orange-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-orange-500 hover:text-orange-500 transition-colors">
                 Download Brochure
               </button>
             </div>

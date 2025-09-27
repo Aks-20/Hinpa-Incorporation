@@ -50,6 +50,13 @@ const WhyChooseUs = () => {
     { name: "Traditional Agencies", gap: "Outdated processes" },
   ];
 
+  const keyPoints = [
+    "Boutique approach, global scale",
+    "SaaS-powered HR & workforce processes",
+    "Seamless blend of hiring & IT services",
+    "Trusted by enterprises & startups alike",
+  ];
+
   return (
     <section className="py-20 bg-white relative overflow-hidden">
       {/* Decorative shapes */}
@@ -61,7 +68,7 @@ const WhyChooseUs = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Intro */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="bg-orange-100 text-orange-700 px-4 py-1 rounded-full text-sm font-semibold">
             Why Choose Us
           </span>
@@ -72,6 +79,19 @@ const WhyChooseUs = () => {
             We merge global know-how, modern technology, and personalized
             service to give your business an edge.
           </p>
+
+          {/* Key Points List */}
+          <div className="mt-8 grid sm:grid-cols-2 gap-4 text-left">
+            {keyPoints.map((point, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-2 text-gray-700 text-base"
+              >
+                <CheckCircle className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <span>{point}</span>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Highlights */}
