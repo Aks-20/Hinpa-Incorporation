@@ -36,7 +36,7 @@ const Header = () => {
           <div className="hidden md:block">
             <button
               className="text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-              style={{ backgroundColor: '#3CA26E' }}
+              style={{ backgroundColor: '#E0904E' }}
             >
               Get Started
             </button>

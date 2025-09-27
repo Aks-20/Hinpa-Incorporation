@@ -30,7 +30,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* About Column */}
           <div className="space-y-6 max-w-lg">
-            <span className="bg-green-50 text-green-700 px-4 py-1.5 rounded-full text-sm font-medium tracking-wide">
+            <span className="bg-orange-50 text-orange-400 px-4 py-1.5 rounded-full text-sm font-medium tracking-wide">
               About HINPA Incorporation
             </span>
 
@@ -55,7 +55,7 @@ const AboutSection = () => {
 
           {/* Mission Column */}
           <div className="relative self-start mt-25">
-            <div className="bg-[#3CA26E] from-green-600 to-green-500 rounded-2xl p-10 text-white shadow-2xl">
+            <div className="bg-[#E0904E] from-orange-500 to-orange-400 rounded-2xl p-10 text-white shadow-2xl">
               <div className="space-y-6">
                 <h3 className="text-3xl font-bold">Our Mission</h3>
                 <p className="text-green-100 leading-relaxed">
@@ -78,15 +78,15 @@ const AboutSection = () => {
               </div>
 
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-green-400 rounded-full opacity-20 blur-lg"></div>
-              <div className="absolute -bottom-6 -left-6 w-12 h-12 bg-green-700 rounded-lg rotate-12 opacity-20 blur-md"></div>
+              <div className="absolute -top-4 -right-4 w-16 h-16 bg-orange-400 rounded-full opacity-20 blur-lg"></div>
+              <div className="absolute -bottom-6 -left-6 w-12 h-12 bg-orange-400 rounded-lg rotate-12 opacity-20 blur-md"></div>
             </div>
 
             {/* Floating Recognition Card */}
             <div className="absolute -bottom-8 left-8 bg-white rounded-xl shadow-xl p-6 max-w-xs border border-gray-200">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center">
-                  <Award className="w-5 h-5 text-green-600" />
+                <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                  <Award className="w-5 h-5 text-orange-400" />
                 </div>
                 <div>
                   <div className="font-semibold text-black">
@@ -108,7 +108,7 @@ const AboutSection = () => {
               key={index}
               className="flex flex-col items-start p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors"
             >
-              <div className="w-12 h-12 mb-4 bg-green-50 rounded-lg flex items-center justify-center text-green-600">
+              <div className="w-12 h-12 mb-4 bg-orange-100 rounded-lg flex items-center justify-center text-orange-400">
                 {highlight.icon}
               </div>
               <h3 className="text-lg font-semibold text-black mb-2">

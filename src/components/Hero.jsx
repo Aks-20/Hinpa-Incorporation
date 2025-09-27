@@ -130,7 +130,7 @@ const HeroSection = () => {
                 className="text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center group"
                 style={{
                   fontFamily: "Inter, sans-serif",
-                  background: "#3CA26E",
+                  background: "#E0904E",
                 }}
               >
                 Get Started
@@ -140,12 +140,12 @@ const HeroSection = () => {
                 className="border-2 border-gray-300 text-gray-700 px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
                 style={{
                   fontFamily: "Inter, sans-serif",
-                  borderColor: "#3CA26E",
-                  color: "#3CA26E",
+                  borderColor: "#E0904E",
+                  color: "#E0904E",
                 }}
                 onMouseEnter={e => {
-                  e.currentTarget.style.borderColor = "#3CA26E";
-                  e.currentTarget.style.color = "#3CA26E";
+                  e.currentTarget.style.borderColor = "#E0904E";
+                  e.currentTarget.style.color = "#E0904E";
                 }}
                 onMouseLeave={e => {
                   e.currentTarget.style.borderColor = "#d1d5db";

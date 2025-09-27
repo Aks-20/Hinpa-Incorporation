@@ -32,7 +32,7 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block mb-4">
-            <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+            <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold">
               Our Services
             </span>
           </div>
@@ -79,7 +79,7 @@ const ServicesSection = () => {
                 <div className="space-y-2 pt-2">
                   {service.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-center text-sm text-gray-600">
-                      <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3 flex-shrink-0"></div>
+                      <div className="w-1.5 h-1.5 bg-orange-400 rounded-full mr-3 flex-shrink-0"></div>
                       {feature}
                     </div>
                   ))}
@@ -87,7 +87,7 @@ const ServicesSection = () => {
 
                 {/* CTA */}
                 <div className="pt-4">
-                  <button className="text-green-600 font-semibold text-sm hover:text-green-700 transition-colors flex items-center group-hover:translate-x-1 transition-transform">
+                  <button className="text-orange-600 font-semibold text-sm hover:text-orange-400 transition-colors flex items-center group-hover:translate-x-1">
                     Learn More
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </button>
@@ -107,11 +107,11 @@ const ServicesSection = () => {
               Let's discuss how our integrated approach to talent and technology can accelerate your growth
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-[#3CA26E] text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
+              <button className="bg-[#E0904E] text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-400 transition-colors flex items-center justify-center">
                 Schedule Consultation
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-green-600 hover:text-green-600 transition-colors">
+              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-orange-600 hover:text-orange-500 transition-colors">
                 Download Brochure
               </button>
             </div>

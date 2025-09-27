@@ -54,15 +54,15 @@ const WhyChooseUs = () => {
     <section className="py-20 bg-white relative overflow-hidden">
       {/* Decorative shapes */}
       <div className="absolute inset-0">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-green-100 rounded-full opacity-40"></div>
-        <div className="absolute bottom-16 right-20 w-24 h-24 bg-blue-100 rounded-full opacity-40"></div>
-        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-purple-100 rotate-45 opacity-40"></div>
+        <div className="absolute top-10 left-10 w-32 h-32 bg-orange-200 rounded-full opacity-40"></div>
+        <div className="absolute bottom-16 right-20 w-24 h-24 bg-orange-100 rounded-full opacity-40"></div>
+        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-orange-300 rotate-45 opacity-40"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Intro */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-semibold">
+          <span className="bg-orange-100 text-orange-700 px-4 py-1 rounded-full text-sm font-semibold">
             Why Choose Us
           </span>
           <h2 className="mt-6 text-4xl lg:text-5xl font-bold text-gray-900">
@@ -79,10 +79,10 @@ const WhyChooseUs = () => {
           {highlights.map((item, idx) => (
             <div
               key={idx}
-              className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition"
+              className="bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 border border-orange-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition"
             >
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 flex items-center justify-center bg-[#3CA26E] from-green-500 to-blue-600 text-white rounded-xl shadow-lg">
+                <div className="w-14 h-14 flex items-center justify-center bg-orange-500 text-white rounded-xl shadow-lg">
                   {item.icon}
                 </div>
                 <div className="flex-1 space-y-3">
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
                       {item.title}
                     </h3>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-green-600">
+                      <div className="text-2xl font-bold text-orange-600">
                         {item.stat}
                       </div>
                       <div className="text-xs text-gray-500">{item.label}</div>
@@ -102,12 +102,10 @@ const WhyChooseUs = () => {
                     {[...Array(5)].map((_, i) => (
                       <Star
                         key={i}
-                        className="w-4 h-4 fill-yellow-400 text-yellow-400"
+                        className="w-4 h-4 fill-orange-400 text-orange-400"
                       />
                     ))}
-                    <span className="text-sm text-gray-500">
-                      Client Rated
-                    </span>
+                    <span className="text-sm text-gray-500">Client Rated</span>
                   </div>
                 </div>
               </div>
@@ -116,7 +114,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Comparison */}
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 lg:p-12">
+        <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 lg:p-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-900">
@@ -138,7 +136,7 @@ const WhyChooseUs = () => {
                     </span>
                   </div>
                 ))}
-                <div className="flex items-center justify-between p-4 bg-[#3CA26E] from-green-500 to-blue-600 rounded-lg text-white shadow-lg">
+                <div className="flex items-center justify-between p-4 bg-orange-500 rounded-lg text-white shadow-lg">
                   <span className="font-bold">HINPA Incorporation</span>
                   <span className="bg-white/20 text-sm px-3 py-1 rounded-full">
                     Complete Solution ✓
@@ -152,31 +150,33 @@ const WhyChooseUs = () => {
               <div className="bg-white ml-10 rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition duration-500">
                 <div className="space-y-6">
                   <div className="flex items-center gap-3">
-                    <TrendingUp className="w-7 h-7 text-green-600" />
+                    <TrendingUp className="w-7 h-7 text-orange-600" />
                     <h4 className="text-xl font-semibold text-gray-900">
                       Growth Metrics
                     </h4>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="p-4 bg-green-50 rounded-lg text-center">
-                      <div className="text-2xl font-bold text-green-600">
+                    <div className="p-4 bg-orange-50 rounded-lg text-center">
+                      <div className="text-2xl font-bold text-orange-600">
                         300%
                       </div>
                       <div className="text-sm text-gray-600">Faster Hiring</div>
                     </div>
-                    <div className="p-4 bg-blue-50 rounded-lg text-center">
-                      <div className="text-2xl font-bold text-blue-600">85%</div>
+                    <div className="p-4 bg-orange-100 rounded-lg text-center">
+                      <div className="text-2xl font-bold text-orange-500">
+                        85%
+                      </div>
                       <div className="text-sm text-gray-600">
                         Cost Reduction
                       </div>
                     </div>
-                    <div className="p-4 bg-purple-50 rounded-lg text-center">
-                      <div className="text-2xl font-bold text-purple-600">
+                    <div className="p-4 bg-orange-50 rounded-lg text-center">
+                      <div className="text-2xl font-bold text-orange-400">
                         99.5%
                       </div>
                       <div className="text-sm text-gray-600">Uptime</div>
                     </div>
-                    <div className="p-4 bg-orange-50 rounded-lg text-center">
+                    <div className="p-4 bg-orange-100 rounded-lg text-center">
                       <div className="text-2xl font-bold text-orange-600">
                         24/7
                       </div>
@@ -185,9 +185,9 @@ const WhyChooseUs = () => {
                   </div>
                   <div className="border-t pt-4 flex items-center gap-2">
                     <div className="flex -space-x-1">
-                      <div className="w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
-                      <div className="w-6 h-6 bg-blue-500 rounded-full border-2 border-white"></div>
-                      <div className="w-6 h-6 bg-purple-500 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-orange-500 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-orange-400 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-orange-300 rounded-full border-2 border-white"></div>
                     </div>
                     <span className="text-sm text-gray-600">
                       Trusted by Fortune 500 clients
@@ -195,8 +195,8 @@ const WhyChooseUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute -top-4 -right-4 w-10 h-10 bg-yellow-400 rounded-full animate-pulse"></div>
-              <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-pink-500 rounded-lg rotate-12"></div>
+              <div className="absolute -top-4 -right-4 w-10 h-10 bg-orange-400 rounded-full animate-pulse"></div>
+              <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-orange-300 rounded-lg rotate-12"></div>
             </div>
           </div>
         </div>
@@ -208,7 +208,7 @@ const WhyChooseUs = () => {
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  className="w-6 h-6 fill-yellow-400 text-yellow-400"
+                  className="w-6 h-6 fill-orange-400 text-orange-400"
                 />
               ))}
             </div>
@@ -217,9 +217,11 @@ const WhyChooseUs = () => {
               approach boosted our efficiency and saved us months of effort.”
             </blockquote>
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 h-12 bg-[#3CA26E] rounded-full"></div>
+              <div className="w-12 h-12 bg-orange-500 rounded-full"></div>
               <div className="text-left">
-                <div className="font-semibold text-gray-900">Sarah Johnson</div>
+                <div className="font-semibold text-gray-900">
+                  Sarah Johnson
+                </div>
                 <div className="text-sm text-gray-600">
                   CEO, TechCorp Industries
                 </div>
