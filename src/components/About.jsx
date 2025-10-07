@@ -85,7 +85,7 @@ const AboutSection = () => {
             <div className="absolute -bottom-16 left-8 bg-white rounded-xl shadow-xl p-6 max-w-xs border border-gray-200 z-10">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
-                  <Award className="w-5 h-5 text-orange-500" />
+                 
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">

@@ -15,8 +15,9 @@ export default function Homepage() {
     <>
       <Header />
       <Hero />
+        <Services />
       <About />
-      <Services />
+    
       <WhyChooseUs />
       <CaseStudies />
       <Career /> 

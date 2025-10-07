@@ -36,7 +36,7 @@ const ContactSection = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: "Headquarters",
       details: [
-        "620, NEPTUNE EDGE, B/H NEPTUNE TRINITY, SARABHAI COMPOUND VILLAGE, Vadodara, Vadodara, Gujarat, 390007",
+        "620, NEPTUNE EDGE, B/H NEPTUNE TRINITY, SARABHAI COMPOUND VILLAGE, Vadodara, Gujarat, 390007",
       ],
     },
     {
@@ -49,11 +49,6 @@ const ContactSection = () => {
       title: "Email",
       details: ["info@huntnhire.com", "careers@huntnhire.com"],
     },
-    {
-      icon: <Clock className="w-6 h-6" />,
-      title: "Business Hours",
-      details: ["Mon - Fri: 9:00 AM - 6:00 PM", "Sat: 10:00 AM - 2:00 PM"],
-    },
   ];
 
   const socialLinks = [
@@ -63,7 +58,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 relative">
+    <section id="contact" className="py-16 bg-gray-50 relative">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -79,9 +74,10 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16">
+        {/* Main Grid */}
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-md p-8">
+          <div className="bg-white rounded-2xl shadow-md p-8 self-start">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Send us a message
             </h3>
@@ -131,31 +127,6 @@ const ContactSection = () => {
 
               <div>
                 <label
-                  htmlFor="requirement"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  Service Required
-                </label>
-                <select
-                  id="requirement"
-                  name="requirement"
-                  value={formData.requirement}
-                  onChange={handleInputChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition"
-                >
-                  <option value="">Select a service</option>
-                  <option value="executive-search">Executive Search</option>
-                  <option value="payroll-services">Payroll Services</option>
-                  <option value="workforce-solutions">Workforce Solutions</option>
-                  <option value="it-services">IT Services</option>
-                  <option value="custom-solutions">Custom Solutions</option>
-                  <option value="consultation">General Consultation</option>
-                </select>
-              </div>
-
-              <div>
-                <label
                   htmlFor="message"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
@@ -188,16 +159,19 @@ const ContactSection = () => {
             </form>
           </div>
 
-          {/* Contact Information */}
+          {/* Contact Information Section */}
           <div className="space-y-8">
-            {/* Info Cards */}
-            <div className="grid grid-cols-1 gap-6">
-              {contactInfo.map((info, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition"
-                >
-                  <div className="flex items-start space-x-4">
+            {/* Contact Info Box (all three inside one box) */}
+            <div className="bg-white rounded-2xl shadow-md p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                Contact Information
+              </h3>
+              <div className="space-y-6">
+                {contactInfo.map((info, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start space-x-4 border-b border-gray-100 pb-4 last:border-0"
+                  >
                     <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-orange-300 to-orange-500 text-white rounded-lg flex items-center justify-center">
                       {info.icon}
                     </div>
@@ -206,34 +180,18 @@ const ContactSection = () => {
                         {info.title}
                       </h4>
                       {info.details.map((detail, detailIndex) => (
-                        <p
-                          key={detailIndex}
-                          className="text-gray-600 text-sm"
-                        >
+                        <p key={detailIndex} className="text-gray-600 text-sm">
                           {detail}
                         </p>
                       ))}
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Map Placeholder */}
-            <div className="bg-white rounded-xl shadow-sm p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                Find Us
-              </h4>
-              <div className="bg-gray-100 rounded-lg h-48 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-10 h-10 text-gray-400 mx-auto mb-2" />
-                  <p className="text-gray-500">
-                    620, NEPTUNE EDGE, B/H NEPTUNE TRINITY, SARABHAI COMPOUND
-                    VILLAGE, Vadodara, Vadodara, Gujarat, 390007
-                  </p>
-                </div>
+                ))}
               </div>
             </div>
+
+            
+        
 
             {/* Social Links */}
             <div className="bg-white rounded-xl shadow-sm p-6">
@@ -253,7 +211,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Quick Response */}
+            {/* Quick Response Box */}
             <div className="bg-orange-50 border-l-4 border-orange-500 rounded-xl p-6">
               <div className="flex items-center space-x-3 mb-2">
                 <div className="w-8 h-8 bg-gradient-to-r from-orange-300 to-orange-500 rounded-full flex items-center justify-center">
@@ -264,8 +222,8 @@ const ContactSection = () => {
                 </h4>
               </div>
               <p className="text-orange-700 text-sm">
-                We typically respond within 2 business hours during weekdays,
-                and within 24 hours on weekends and holidays.
+                We typically respond during weekdays and within 24 hours on
+                weekends and holidays.
               </p>
             </div>
           </div>
