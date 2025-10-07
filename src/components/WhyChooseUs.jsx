@@ -26,14 +26,7 @@ const WhyChooseUs = () => {
       stat: "99%",
       label: "Automation",
     },
-    {
-      icon: <Shield className="w-6 h-6" />,
-      title: "One-Stop Partner",
-      detail:
-        "From recruitment to IT solutions, we deliver end-to-end services you can trust.",
-      stat: "24/7",
-      label: "Support",
-    },
+    
     {
       icon: <CheckCircle className="w-6 h-6" />,
       title: "Agile & Transparent",
@@ -196,12 +189,7 @@ const WhyChooseUs = () => {
                       </div>
                       <div className="text-sm text-gray-600">Uptime</div>
                     </div>
-                    <div className="p-4 bg-orange-100 rounded-lg text-center">
-                      <div className="text-2xl font-bold text-orange-600">
-                        24/7
-                      </div>
-                      <div className="text-sm text-gray-600">Support</div>
-                    </div>
+
                   </div>
                   <div className="border-t pt-4 flex items-center gap-2">
                     <div className="flex -space-x-1">

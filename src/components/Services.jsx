@@ -48,9 +48,7 @@ const ServicesSection = () => {
               Our Services
             </span>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Three Pillars of Excellence
-          </h2>
+         
           <p className="text-xl text-gray-600">
             Comprehensive solutions spanning talent acquisition, workforce management, and technology innovation.
           </p>
