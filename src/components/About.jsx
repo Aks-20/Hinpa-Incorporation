@@ -55,7 +55,7 @@ const AboutSection = () => {
 
           {/* Mission Column */}
           <div className="relative self-start">
-            <div className="bg-gradient-to-r from-orange-500 to-orange-400 rounded-2xl p-10 text-white shadow-2xl relative overflow-hidden">
+            <div className="bg-gradient-to-r from-orange-500 to-orange-400 rounded-2xl p-10 text-white shadow-2xl">
               <div className="space-y-6">
                 <h3 className="text-3xl font-bold">Our Mission</h3>
                 <p className="text-orange-100 leading-relaxed">
@@ -75,17 +75,13 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Decorative elements */}
-              <div className="absolute -top-6 -right-6 w-20 h-20 bg-orange-300 rounded-full opacity-20 blur-xl"></div>
-              <div className="absolute -bottom-8 -left-8 w-16 h-16 bg-orange-400 rounded-xl rotate-12 opacity-20 blur-md"></div>
             </div>
 
             {/* Floating Recognition Card */}
             <div className="absolute -bottom-16 left-8 bg-white rounded-xl shadow-xl p-6 max-w-xs border border-gray-200 z-10">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
-                 
+                  <Award className="w-5 h-5 text-orange-500" />
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">
